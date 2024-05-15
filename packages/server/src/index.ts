@@ -1,7 +1,5 @@
 import express, { Express, Request, Response } from "express";
 import { setup } from "./mud/setup";
-import mudConfig from "contracts/mud.config";
-import { getComponentValueStrict } from "@latticexyz/recs";
 
 // Connect to MUD
 const {
